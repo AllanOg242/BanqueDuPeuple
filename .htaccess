@@ -1,0 +1,10 @@
+RewriteEngine on  
+
+
+RewriteRule ^gestClient$ src/view/client/listeClient.php
+RewriteRule ^gestCompte$ src/view/compte/listeCompte.php
+RewriteRule ^newCompte$ src/view/compte/addCompte.php
+RewriteRule ^newCompteS$ src/view/compte/addCompte.php?ok=1
+RewriteRule ^newCompteE$ src/view/compte/addCompte.php?ok=0
+
+RewriteRule ^compteController$ src/controller/compteController.php
